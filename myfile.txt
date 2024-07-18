@@ -1,0 +1,4 @@
+echo -n "" > myfile.txt 
+echo "Hello world" >> myfile.txt
+filesize=$(stat -c %s myfile.txt)
+echo "Size of myfile.txt: $filesize bytes"
