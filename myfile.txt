@@ -1,3 +1,5 @@
+# Bash Simple File Size
+
 echo -n "" > myfile.txt 
 echo "Hello world" >> myfile.txt
 filesize=$(stat -c %s myfile.txt)
