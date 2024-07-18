@@ -1,0 +1,9 @@
+# Git Stashing
+
+git clone https://github.com/coderbyte-org/big-o
+cd big-o
+git checkout -b feat/add-new-file
+echo "This is a new file." > example.txt
+git add example.txt
+git commit -m "feat: add new file"
+git status && git log --pretty=format:%s -n 1
